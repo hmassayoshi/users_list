@@ -46,4 +46,12 @@ This project, basing on clean architecture, has the following layers:
     - widgets: widget components
   - main: gathering all the layers
 
+This project uses the following packages
+- Dio: Used for API calls using HTTP requests, a robust and easy tool for HTTP requests
+- GetX: Used for state management and navigation through the app, a simple and efficient tool for state management
+- Mockito: Used for mock the repository layer
+- Build Runner: Used for generating mocked files
+
+The last apk build can be found on res/apk
+
 
