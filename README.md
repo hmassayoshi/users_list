@@ -31,7 +31,7 @@ Critérios de Avaliação
   -	Cobertura de testes unitários na camada Domain.
   -	Documentação e explicação das escolhas.
 
-This project, basing on clean architecture, has the following layers:
+## This project, basing on clean architecture, has the following layers:
 - lib
   - domain: with the application business logic
     - entities: business objects
@@ -46,12 +46,17 @@ This project, basing on clean architecture, has the following layers:
     - widgets: widget components
   - main: gathering all the layers
 
-This project uses the following packages
+## This project uses the following packages
 - Dio: Used for API calls using HTTP requests, a robust and easy tool for HTTP requests
 - GetX: Used for state management and navigation through the app, a simple and efficient tool for state management
 - Mockito: Used for mock the repository layer
 - Build Runner: Used for generating mocked files
 
-The last apk build can be found on res/apk
+## How to execute
+1. Clone the repo.
+2. Execute `flutter pub get` for dependencies installation.
+3. Execute `flutter run` to run the application.
+
+## The last apk build can be found on res/apk
 
 
