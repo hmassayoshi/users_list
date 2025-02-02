@@ -32,22 +32,18 @@ Critérios de Avaliação
   -	Documentação e explicação das escolhas.
 
 This project, basing on clean architecture, has the following layers:
+- lib
+  - domain: with the application business logic
+    - entities: business objects
+    - use_cases: business logic
+  - data: with the data access logic
+    - repositories: domain repository implementation
+    - data sources: API fetches (from https://jsonplaceholder.typicode.com/users)
+    - models: data handling from API
+  - presentation: with the user interface
+    - controllers: UI state manager
+    - pages: application screens
+    - widgets: widget components
+  - main: gathering all the layers
 
-- data
-  - api_source: using 'https://randomuser.me/api/?results=10' for data resource
-  - model
-  - repository: using a user_repository and its implementation 
-- domain
-  - entity
-    - user
-- presentation [TODO]
 
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
