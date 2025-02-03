@@ -1,6 +1,6 @@
-import 'package:medicina_direta/data/data_sources/user_remote_data_source.dart';
-import 'package:medicina_direta/data/repositories/user_repository.dart';
-import 'package:medicina_direta/domain/entities/user.dart';
+import 'package:users_list/data/data_sources/user_remote_data_source.dart';
+import 'package:users_list/data/repositories/user_repository.dart';
+import 'package:users_list/domain/entities/user.dart';
 
 class UserRepositoryImpl implements UserRepository {
   final UserRemoteDataSource remoteDataSource;

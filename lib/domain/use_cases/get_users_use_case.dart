@@ -1,5 +1,5 @@
-import 'package:medicina_direta/data/repositories/user_repository.dart';
-import 'package:medicina_direta/domain/entities/user.dart';
+import 'package:users_list/data/repositories/user_repository.dart';
+import 'package:users_list/domain/entities/user.dart';
 
 class GetUsersUseCase {
   final UserRepository repository;

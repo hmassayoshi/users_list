@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medicina_direta/domain/entities/user.dart';
+import 'package:users_list/domain/entities/user.dart';
 
 class UserAvatar extends StatelessWidget {
   final User user;

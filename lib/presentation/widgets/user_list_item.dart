@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:medicina_direta/domain/entities/user.dart';
-import 'package:medicina_direta/presentation/widgets/user_avatar.dart';
+import 'package:users_list/domain/entities/user.dart';
+import 'package:users_list/presentation/widgets/user_avatar.dart';
 
 class UserListItem extends StatelessWidget {
   final User user;

@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 
-import 'package:medicina_direta/data/models/user_model.dart';
-import 'package:medicina_direta/domain/entities/user.dart';
+import 'package:users_list/data/models/user_model.dart';
+import 'package:users_list/domain/entities/user.dart';
 
 class UserRemoteDataSource {
   final Dio dio;

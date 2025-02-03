@@ -1,4 +1,4 @@
-# medicina_direta
+# users_list
 
 A simple user list
 
@@ -58,6 +58,6 @@ Critérios de Avaliação
 3. Execute `flutter run` to run the application.
 
 ## The last apk build can be found on res/apk
-[medicina_direta_1.0](https://github.com/hmassayoshi/medicina_direta/blob/72a0bf79af7dae1e474fc766b5892d490f2ef80c/res/apk/app-release.apk?raw=true)
+[user_list_1.0](https://github.com/hmassayoshi/users_list/blob/72a0bf79af7dae1e474fc766b5892d490f2ef80c/res/apk/app-release.apk?raw=true)
 
 

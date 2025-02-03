@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
 
-import 'package:medicina_direta/domain/entities/user.dart';
-import 'package:medicina_direta/domain/use_cases/get_users_details_use_case.dart';
-import 'package:medicina_direta/domain/use_cases/get_users_use_case.dart';
+import 'package:users_list/domain/entities/user.dart';
+import 'package:users_list/domain/use_cases/get_users_details_use_case.dart';
+import 'package:users_list/domain/use_cases/get_users_use_case.dart';
 
 class UserController extends GetxController {
   final GetUsersUseCase getUsersUseCase;

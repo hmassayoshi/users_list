@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:medicina_direta/presentation/controller/user_controller.dart';
-import 'package:medicina_direta/presentation/page/user_details_page.dart';
-import 'package:medicina_direta/presentation/widgets/user_list_item.dart';
+import 'package:users_list/presentation/controller/user_controller.dart';
+import 'package:users_list/presentation/page/user_details_page.dart';
+import 'package:users_list/presentation/widgets/user_list_item.dart';
 
 class UserListPage extends StatelessWidget {
   final UserController controller =

@@ -1,4 +1,4 @@
-import 'package:medicina_direta/domain/entities/user.dart';
+import 'package:users_list/domain/entities/user.dart';
 
 abstract class UserRepository {
   Future<List<User>> getUsers();

@@ -1,6 +1,6 @@
 {
-    "name": "medicina_direta",
-    "short_name": "medicina_direta",
+    "name": "users_list",
+    "short_name": "users_list",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

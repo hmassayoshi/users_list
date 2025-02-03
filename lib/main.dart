@@ -2,12 +2,12 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:medicina_direta/data/data_sources/user_remote_data_source.dart';
-import 'package:medicina_direta/data/repositories/user_repository_impl.dart';
-import 'package:medicina_direta/domain/use_cases/get_users_details_use_case.dart';
-import 'package:medicina_direta/domain/use_cases/get_users_use_case.dart';
-import 'package:medicina_direta/presentation/controller/user_controller.dart';
-import 'package:medicina_direta/presentation/page/user_list_page.dart';
+import 'package:users_list/data/data_sources/user_remote_data_source.dart';
+import 'package:users_list/data/repositories/user_repository_impl.dart';
+import 'package:users_list/domain/use_cases/get_users_details_use_case.dart';
+import 'package:users_list/domain/use_cases/get_users_use_case.dart';
+import 'package:users_list/presentation/controller/user_controller.dart';
+import 'package:users_list/presentation/page/user_list_page.dart';
 
 void main() {
   final Dio dio = Dio();
